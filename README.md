@@ -35,6 +35,9 @@ cd emotion-recognition
 # Install dependencies
 pip install -r requirements.txt
 
+# Download the crema dataset (https://www.kaggle.com/datasets/dmitrybabko/speech-emotion-recognition-en)
+Place it in the data/rawdataset folder
+
 # Run complete pipeline (data → train → predict)
 python main.py
 
